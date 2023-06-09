@@ -1,6 +1,6 @@
 # EinfachGustaf.live Website
 
-Das offizielle Repository für die Website des EInfachGustaf.live Projektes.
+Das offizielle Repository für die Website des EinfachGustaf.live Projektes.
 
 ## Translation/Übersetzung
 
@@ -21,7 +21,7 @@ Bitte vergiss nicht, dass wir nicht alle Pull Requests akzeptieren und es existi
 
 - Kein Code, welcher schädlich ist
 - Keine nutzlosen Änderungen
-- Kein erstellen von neuen Dateien im Repository(außer eine ordentliche Erklärung wurde dazu gegeben)
+- Kein erstellen von neuen Dateien im Repository(außer es wurde ein guter Grund gegeben)
 
 ## Lizenz
 
