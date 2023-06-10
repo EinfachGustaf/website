@@ -19,9 +19,9 @@ Bitte vergiss nicht, dass wir nicht alle Pull Requests akzeptieren und es existi
 
 ### Regeln:
 
-- Kein Code, welcher schädlich ist
+- Kein schädlicher Code
 - Keine nutzlosen Änderungen
-- Kein erstellen von neuen Dateien im Repository(außer es wurde ein guter Grund gegeben)
+- Kein erstellen von neuen Dateien im Repository (außer es wurde ein guter Grund gegeben)
 
 ## Lizenz
 

@@ -20,7 +20,7 @@ Please note, that we don't accept all Pull Requests and there are rules you shou
 
 - No malicious code
 - No useless changes
-- No creation of new files within the repository(except a proper reason is given)
+- No creation of new files within the repository (except a proper reason is given)
 
 ## License
 
