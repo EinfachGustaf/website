@@ -4,10 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EinfachGustaf.live</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="screen.css">
-  <link rel="stylesheet" href="animation.css">
-  <script src="animation.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/screen.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/shapes.css">
+  <!--Google Fonts Icons-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <!--Javascript-->
+  <script src="js/warn.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/copy.js"></script>
+  <script src="js/copy-effect.js"></script>
 </head>
 <body>
   <div class="top">
@@ -19,34 +26,44 @@
   <div class="features">
     <div class="feature-wrapper">
       <div class="feature hidden-l">
-        <p style="width:90%">
-        Open Source wird hier groß geschrieben.<br>
-        Eine Menge von Code ist quelloffen und wir freuen uns über jeden Beitrag, jeden Vorschlag und so weiter.
+        <p style="width:90%;" class="feature-txt">
+        Open-Source
         </p>
       </div>
       <div class="feature hidden-r">
-        <p style="width:90%">
-        Mit Liebe für die Community. <br>
-        Du kennst es, oftmals schreibt dir der Support mal nicht zurück und so weiter. <br>
-        Wir verfolgen die Philosophie, dass wir uns um jedes Mitglied in der Community gedanken machen müssen und wir niemanden ignorieren sollen.
+        <p style="width:90%;" class="feature-txt">
+        Nah zur Community
         </p>
       </div>
     </div>
     <div class="feature-wrapper">
       <div class="feature hidden-l">
-        <p style="width:90%">
-          Ein Platzhalter für Texte in naher Zukunft
+        <p style="width:90%;" class="feature-txt">
+        Modernes Backend
         </p>
       </div>
       <div class="feature hidden-r">
-        <p style="width:90%">
-          Ein Platzhalter für Texte in naher Zukunft
+        <p style="width:90%;" class="feature-txt">
+        Einfach für jeden Spieler
         </p>
       </div>
     </div>
   </div>
-  <footer>
-    <p class="foot">© 2023 EinfachGustaf.live, All rights reserved.</p>
-  </footer>
+  <div class="join" style="position: relative;">
+    <div class="custom-shape-divider-top-1691001879">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <h1 style="margin-bottom: 15vh;color: white;font-family: Geologica;font-size: 5vw;">Hast du Lust zu joinen?</h1>
+    <div class="domain-wrapper">
+      <div class="domain-txt-wrapper">
+        <span>EinfachGustaf.live</span>
+      </div>
+      <div class="sym-copy-wrapper" id="copy-field">
+        <span class="material-symbols-outlined" onclick="copy(); copy_effect()" style="font-size: 32px;">content_copy</span>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

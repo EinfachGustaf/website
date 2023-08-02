@@ -52,19 +52,45 @@ body {
     font-family: Geologica
 }
 
-footer {
-    background-color: rgb(41, 40, 40);
-    width: 95%;
-    margin: auto;
-    height: 80px;
-    margin-bottom: 30px;
-    border-radius: 48px;
+.feature-txt {
+    font-size: 3.5vw;
 }
 
-.foot {
-    font-size: 24px;
+.join {
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(7,144,172,1) 100%);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.domain-wrapper {
+    background-color: #121212;
+    width: 80vw;
+    border-radius: 48px;
+    height: 60px;
+}
+
+.domain-txt-wrapper {
+    float: left;
+    padding-left: 2vw;
     color: white;
-    font-family: 'Geologica', sans-serif;
+    font-family: Geologica;
+    font-size: 26px;
+    padding-top: 13px;
+}
+
+.sym-copy-wrapper {
+    display: flex;
+    float: right;
+    height: 60px;
+    width: 60px;
+    background-color: #222121;
+    border-radius: 48px;
     text-align: center;
-    padding-top: 20px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
 }
