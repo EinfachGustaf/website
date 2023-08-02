@@ -1,0 +1,26 @@
+@media only screen and (max-width: 950px) {
+    .feature-wrapper {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 951px) {
+    .hidden-l {
+        opacity: 0;
+        transition: all 1s;
+        filter: blur(5px);
+        transform: translateX(-70%);
+    }
+    
+    .hidden-r {
+        opacity: 0;
+        transition: all 1s;
+        filter: blur(5px);
+        transform: translateX(70%);
+    }
+}
