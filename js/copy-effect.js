@@ -3,7 +3,7 @@ function copy_effect() {
     copybtn.animate(
         [
           { background: '#525252'},
-          { background: '#222121'}
+          { background: copybtn.style.backgroundColor}
         ], {
           duration: 300,
           iterations: 1
