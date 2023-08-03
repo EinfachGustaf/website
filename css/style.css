@@ -94,3 +94,7 @@ body {
     justify-content: center;
     transition: 0.3s;
 }
+
+.sym-copy-wrapper:hover {
+    background-color: #333333;
+}
