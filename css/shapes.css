@@ -15,5 +15,6 @@
 }
 
 .custom-shape-divider-top-1691001879 .shape-fill {
-    fill: #FFFFFF;
+    fill: var(--bg);
+    transition: 1s;
 }

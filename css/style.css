@@ -3,7 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: white;
+    background-color: var(--bg);
+    transition: 1s;
 }
 
 .top {
