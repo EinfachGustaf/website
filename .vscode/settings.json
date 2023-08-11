@@ -1,0 +1,18 @@
+{
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnType": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true
+    }
+}

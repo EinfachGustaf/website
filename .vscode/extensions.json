@@ -1,0 +1,7 @@
+// recommendations for extensions
+{
+    "recommendations": [
+        "vscode-icons-team.vscode-icons", // custom vscode icons for the workspace 
+        "ms-vscode.live-server" // webpage preview for vscode
+    ]
+}
